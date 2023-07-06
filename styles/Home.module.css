@@ -1,0 +1,35 @@
+#hero {
+  background: url("../public/images/hero.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.logosImg {
+  width: 40px;
+}
+
+.offPlanProjects {
+  font-size: 22px;
+  color: #09001F;
+
+  font-weight: bold;
+}
+
+.offPlanProjectsParagraph {
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 748px) {
+  .offPlanProjectsParagraph {
+    margin-bottom: 0rem !important;
+    font-size: 15px !important;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .offPlanProjectsParagraph {
+    margin-bottom: 0rem !important;
+    font-size: 13px !important;
+  }
+}
